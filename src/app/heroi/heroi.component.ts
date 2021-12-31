@@ -8,9 +8,7 @@ import { Hero } from './hero.model';
   styleUrls: ['./heroi.component.css']
 })
 export class HeroiComponent  {
-  hero: Hero =  {id: 1, name: 'Spider-Man'}
-
-herois = HEROIS;
+ herois = HEROIS;
 selectedHero?: Hero;
 
   onSelect(hero : Hero): void{
